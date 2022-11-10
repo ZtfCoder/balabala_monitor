@@ -34,7 +34,7 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "yarn global add lerna && yarn config set workspaces-experimental true && lerna bootstrap",
+  "postCreateCommand": "yarn global add lerna@5.6.2 && yarn config set workspaces-experimental true && lerna bootstrap",
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
 }
